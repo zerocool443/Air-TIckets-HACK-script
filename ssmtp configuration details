@@ -26,4 +26,4 @@ hostname=MyEmailAddress@gmail.com
 # Are users allowed to set their own From: address?
 # YES - Allow the user to specify their own From: address
 # NO - Use the system generated From: address
-FromLineOverride=YES - See more at: http://www.havetheknowhow.com/Configure-the-server/Install-ssmtp.html#sthash.wJhHz2t8.dpuf
+FromLineOverride=YES 
