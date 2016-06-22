@@ -1,0 +1,10 @@
+# This file contains value of air prices you want and these values keep on updating with help of the python script 
+
+#example
+
+4512
+5689
+6547
+7845
+1212
+5526
