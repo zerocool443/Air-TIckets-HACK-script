@@ -1,10 +1,20 @@
 #!/bin/bash
 
-echo "What is the minimum price you expect"
-read min
+#Put this script in your crontabs according to the time interval you want the prices to be updated
 
-for values in $(cat value.txt)
-    if [ $values le $min ]
-        then  echo " found - INR $values"
-    fi
+
+
+for value in $(cat values.txt)
+    min= $value
     
+for values in $(cat value.txt)    
+    if [ $values le $min ]
+        min= $values
+    fi
+echo " found ticket worth - INR $values" | mail  yourmailaddress@abc.com
+    fi    
+    
+exit
+
+
+
