@@ -3,6 +3,7 @@
 #Put this script in your crontabs according to the time interval you want the prices to be updated
 
 
+python AirTIckethacksscript.py
 
 for value in $(cat values.txt)
     min= $value
